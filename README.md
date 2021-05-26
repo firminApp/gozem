@@ -1,8 +1,8 @@
 # Gozem
 
-How to run the application?
+ ## How to run the application?
 
-Make sure you have all nodejs environnements ready
+Make sure you have all nodejs environements ready
 
 ## Clone the repository
 
@@ -13,24 +13,17 @@ git clone https://github.com/firminApp/gozem.git
 ## Create .env file user exemple.env
 
 ```sh
-cp exemple.en .env
+cp exemple.env .env
 
 ```
+NB: edit this file to change the API_KEY with the right one
 
 ## Install dependencies
-
-By default, dependencies were installed when this application was generated.
-Whenever dependencies in `package.json` are changed, run the following command:
 
 ```sh
 npm install
 ```
 
-To only install resolved dependencies in `package-lock.json`:
-
-```sh
-npm ci
-```
 
 ## Run the application
 
@@ -39,8 +32,7 @@ npm start
 ```
 
 Open http://127.0.0.1:3000 in your browser.
-
-You can test the endpoint directely with swagger
+You reach  a green page like gozem color's with the API swagger documentation ready to be tested
 
 
 ## Tests
@@ -48,4 +40,6 @@ You can test the endpoint directely with swagger
 ```sh
 npm test
 ```
-for any issue email me directely firminapp@gmail.com
+For any issue email me directely firminapp@gmail.com
+
+by firmin

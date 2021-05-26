@@ -1,10 +1,11 @@
 {
   "name": "gozem",
   "version": "0.0.1",
-  "description": "test app for gozem",
+  "description": "Test app for gozem",
   "keywords": [
-    "loopback-application",
-    "loopback"
+    "Gozem",
+    "location",
+    "nodejs"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
