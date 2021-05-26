@@ -5,13 +5,7 @@ import {
 import {
   getModelSchemaRef,
 
-
   post,
-
-
-
-
-
 
   requestBody,
   response
@@ -27,6 +21,11 @@ export class LocationController {
     public locationRepository: LocationRepository,
   ) { }
 
+  /**
+   * Endpoint
+   * @param location
+   * @returns
+   */
   @post('/locations')
   @response(200, {
     description: 'Location model instance',
@@ -45,14 +44,13 @@ export class LocationController {
     })
     location: Omit<Location, 'id'>,
   ): Promise<any> {
-
     let start = location.start.lat + "," + location.start.lng;
     let end = location.end.lat + "," + location.end.lng;
     let data = await this.geoService.distance(start, end, location.unit);
 
     console.log(data);
     location.geo = data;
-    return data; //this.locationRepository.create(location);
+    return data;
   }
 
 }

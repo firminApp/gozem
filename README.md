@@ -6,7 +6,16 @@ Make sure you have all nodejs environnements ready
 
 ## Clone the repository
 
-git clone
+```sh
+git clone https://github.com/firminApp/gozem.git
+
+```
+## Create .env file user exemple.env
+
+```sh
+cp exemple.en .env
+
+```
 
 ## Install dependencies
 
