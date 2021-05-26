@@ -10,7 +10,7 @@ Make sure you have all nodejs environements ready
 git clone https://github.com/firminApp/gozem.git
 
 ```
-## Create .env file user exemple.env
+## Create .env file using exemple.env
 
 ```sh
 cp exemple.env .env
